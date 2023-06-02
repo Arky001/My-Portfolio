@@ -1,0 +1,28 @@
+.certificate-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-spacing: 10px;
+}
+.certificate-table td {
+  border: 1px solid #6CA595;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: top;
+}
+.certificate-image {
+  width: 100%; /* Adjust the image width for smaller screens */
+  height: auto;
+  max-width: 22rem; /* Limit the maximum image width */
+}
+.certificate-caption {
+  background-color: #6CA595;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+/* Media Query for certificate images on smaller screens */
+@media (max-width: 768px) {
+  .certificate-image {
+    max-width: 100%; /* Adjust the image width for smaller screens */
+  }
+}

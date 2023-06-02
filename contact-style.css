@@ -1,0 +1,41 @@
+.contact-table {
+	margin: 0 auto;
+}
+.contact-table td {
+	padding: 10px;
+	text-align: center;
+}
+.contact-image {
+	width: 5rem; /* Adjust the image width as needed */
+	height: 5rem; /* Adjust the image height as needed */
+}
+.contact-text {
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+.hire {
+	position: relative;
+	width: 100%; /* Set the width to 100% */
+	height: auto; /* Set the height to auto */
+	background-image: url('./image/hire.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: contain; /* Adjust the background size as needed */
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin-bottom: 1rem; /* Adjust the margin as needed */
+	padding-top: 10%; /* Adjust the padding to set the image size */
+}
+.hire img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 5%; /* Adjust the image size as needed */
+	height: auto;
+	transition: transform 0.8s ease; /* Add transition to the contact-image */
+}
+.hire:hover img {
+	transform: translate(10px, -5px); /* Move the contact-image a little bit to the left on hover */
+}

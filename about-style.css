@@ -1,0 +1,12 @@
+.block {
+	border: 1px solid #6CA595;
+	border-radius: 5px;
+	font-size: 160%;
+	text-align: justify;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: 5%;
+}
+.block span {
+	color: #6CA595;
+}
